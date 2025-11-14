@@ -1,0 +1,37 @@
+# LaTeX temporary files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.ps
+*.pdfsync
+*.bak
+*.swp
+*.swo
+*.temp
+*.tmp
+
+# Build folders
+build/
+dist/
+
+# Overleaf / local junk
+*.synctex(busy)
+*.pdfpc
+
+# macOS junk
+.DS_Store
+
+# Only keep the final PDF
+!voynich_dubruyn_2025_arxiv.pdf
